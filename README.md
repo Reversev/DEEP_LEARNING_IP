@@ -1,2 +1,2 @@
 # DEEP_LEARNING_IP
-Deep Learning with Image Processing
+Image Processing with Deep Learning

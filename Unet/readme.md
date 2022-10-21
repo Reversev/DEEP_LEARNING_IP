@@ -23,13 +23,13 @@ python predict.py
 ```
 ## 3. Model Instructure
 <div align="center">
-<img src="https://github.com/Reversev/DEEP_LEARNING_IP/tree/main/Unet/assert/orig_unet.png" width="600" /> 
+<img src="./assert/orig_unet.png" width="600" /> 
 
 Figure 1. Original U-Net structure in the paper.
 </div>
 
 <div align="center">
-<img src="https://github.com/Reversev/DEEP_LEARNING_IP/tree/main/Unet/assert/unet_.png" width="600" /> 
+<img src="./assert/unet_.png" width="600" /> 
 
 Figure 2. modified U-Net structure for experiments.
 </div>

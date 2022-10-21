@@ -35,15 +35,11 @@ Figure 2. modified U-Net structure for experiments.
 </div>
 
 <div align="center">
-<img src="./assert/test.png" width="600" /> 
+<img src="./assert/test.png" width="400" /> 
 
-Figure 3. Original image to be segmented.
-</div>
+<img src="./assert/test_result.png" width="400" /> 
 
-<div align="center">
-<img src="./assert/test_result.png" width="600" /> 
-
-Figure 4. Segmented result.
+Figure 3. Original image to be segmented.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Figure 4. Segmented result.
 </div>
 
 ## 4. Reference

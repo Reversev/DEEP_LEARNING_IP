@@ -2,7 +2,7 @@
 
 Paper: [Fully Convolutional Networks for Semantic Segmentation](https://openaccess.thecvf.com/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)
 
-## 背景 (Background)
+## 1. 背景 (Backgrounds)
 传统的基于CNN的语义分割方法是：将像素周围某一范围的区域（如25*25）作为CNN输入，进行训练和预测。这样做存在如下问题： 
 
 - 像素区域的大小如何确定
@@ -19,7 +19,7 @@ CNN的优势：
 ```
 
 
-## 核心思想 (Idea)
+## 2. 核心思想 (Idea)
 - 不含全连接层(fc)的全卷积(fully conv)网络，对图像像素级的分类，可适应任意尺寸输入；
   
   （图像分割需要的是一个分割图（二维甚至三维），而分类任务中的全连接层会使空间信息丢失，所以要将全连接层换成卷积层）
@@ -55,7 +55,7 @@ Figure 1. Original FCN structure in the paper.
 Figure 2. FCN structure with remark.
 </div>
 
-## 实验效果展示 (Experiment Results)
+## 4. 实验效果展示 (Experiment Results)
 Train process code: 
 ```python
 python train.py 
@@ -86,7 +86,7 @@ python predict_show.py --img-path "test.jpg" --weight-path "./res_trained/mdoel_
 Figure 3. 实验效果展示.
 </div>
 
-## 总结 (Conclusion)
+## 5. 总结 (Conclusion)
 不足：
 - 得到的结果还不够精细。进行8倍上采样虽然比32倍的效果好了很多，但是上采样的结果还是比较模糊和平滑，对图像中的细节不敏感。
 - 是对各个像素进行分类，没有充分考虑像素与像素之间的关系。忽略了在通常的基于像素分类的分割方法中使用的空间规整（spatial regularization）步骤，缺乏空间一致性。

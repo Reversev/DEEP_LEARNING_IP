@@ -50,7 +50,7 @@ Figure 1. Original FCN structure in the paper.
 然后把原来CNN操作中的全连接变成卷积操作conv6、conv7，图像的featureMap数量改变但是图像大小依然为原图的1/32（得到的特征图称为HeatMap，并且这说明```原图必须是32的整数倍```）。
 
 <div align="center">
-<img src="https://github.com/Reversev/DEEP_LEARNING_IP/tree/main/image_segmentation/FCN/assert/fcn_modify.png" width="600" /> 
+<img src="https://github.com/Reversev/DEEP_LEARNING_IP/tree/main/FCN/assert/fcn_modify.png" width="600" /> 
 
 Figure 2. FCN structure with remark.
 </div>
@@ -81,7 +81,7 @@ python predict_show.py --img-path "test.jpg" --weight-path "./res_trained/mdoel_
 |   VGG16     |  224 x 224  |   43.1    |
 
 <div align="center">
-<img src="https://github.com/Reversev/DEEP_LEARNING_IP/tree/main/image_segmentation/FCN/assert/test_result.png" width="600" /> 
+<img src="https://github.com/Reversev/DEEP_LEARNING_IP/tree/main/FCN/assert/test_result.png" width="600" /> 
 
 Figure 3. 实验效果展示.
 </div>

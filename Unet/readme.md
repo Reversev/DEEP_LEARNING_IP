@@ -29,12 +29,12 @@ Figure 1. Original U-Net structure in the paper.
 </div>
 
 <div align="center">
-<img src="./assert/unet_.png" width="600" /> 
+<img src="./assert/unet_.png" width="1200" /> 
 
 Figure 2. modified U-Net structure for experiments.
 </div>
 
-## Reference
+## 4. Reference
 [1] https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/acac98bffe1b82719019951dcbbf0a49e555707b/pytorch_segmentation/unet
 
 [2] https://github.com/milesial/Pytorch-UNet

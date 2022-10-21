@@ -50,7 +50,7 @@ Figure 1. Original FCN structure in the paper.
 然后把原来CNN操作中的全连接变成卷积操作conv6、conv7，图像的featureMap数量改变但是图像大小依然为原图的1/32（得到的特征图称为HeatMap，并且这说明```原图必须是32的整数倍```）。
 
 <div align="center">
-<img src="./assert/fcn_modify.png" width="600" /> 
+<img src="./assert/fcn_modify.jpg" width="600" /> 
 
 Figure 2. FCN structure with remark.
 </div>

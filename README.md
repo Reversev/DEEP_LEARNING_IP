@@ -1,8 +1,8 @@
 # DEEP_LEARNING_IP
 Image Processing with Deep Learning 
 
-image classification
+* Image classification
 
-image detection
+* Image detection
 
-image segmentation
+* Image segmentation

@@ -6,3 +6,5 @@ Image Processing with Deep Learning
 * Image detection
 
 * Image segmentation
+
+* 3D

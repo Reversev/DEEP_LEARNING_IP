@@ -14,6 +14,6 @@ python train.py
 
 - Results
 
-![]('./asserts/train.png')
+![](./asserts/train.png)
 
-![]('./asserts/val.png')
+![](./asserts/val.png)

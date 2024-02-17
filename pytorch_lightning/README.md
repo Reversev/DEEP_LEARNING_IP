@@ -14,6 +14,6 @@ python train.py
 
 - Results
 
-![](./asserts/train.png)
+![](https://github.com/Reversev/DEEP_LEARNING_IP/blob/main/pytorch_lightning/assert/train.png)
 
-![](./asserts/val.png)
+![](https://github.com/Reversev/DEEP_LEARNING_IP/blob/main/pytorch_lightning/assert/eval.png)

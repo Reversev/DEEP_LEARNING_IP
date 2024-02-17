@@ -8,3 +8,5 @@ Image Processing with Deep Learning
 * Image segmentation
 
 * 3D
+
+* Pytorch_lightning
